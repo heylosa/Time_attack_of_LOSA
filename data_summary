@@ -1,3 +1,29 @@
+Directory structure
+-------------------
+AUTHORS		      information about the authors of MTEX
+c (dir)         source code for core library routines
+ChangeLog	      a short version history
+COPYING		      information about redistributing MTEX
+data (dir)      some sample data sets
+examples (dir)  simple examples for using MTEX
+geometry (dir)  geometry tools
+help (dir)	    user and developer documentation
+info.xml        used by MATLAB
+istall_mtex     install MTEX for permanent use
+INSTALL         installation instructions
+MAKEFILE        contains the compiling options !! to be edited by the advanced user !!
+mtex_settings   contains the configuration of MTEX !! to be edited by the user !!
+qta (dir)       core scripts for working with ODFs, EBSD data, and PDFs
+templates (dir) template file for importing EBSD and pole figure data
+README          this file
+startup.m       initialization routine automticaly called by MATLAB if the
+                toolbox is contained in the search path of MATLAB
+startup_mtex    initialization routine for MTEX - to be called at the
+                beginning of each MTEX session
+tests (dir)     some self tests
+tools           auxilary tools
+unistall_mtex   remove MTEX from the search path (permanently)
+
 shortName  type        files
 dubna      PoleFigure  dubna/*.cnv
 geesthacht PoleFigure  geesthacht/ST42-104-110.dat
